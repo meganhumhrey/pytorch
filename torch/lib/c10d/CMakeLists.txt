@@ -44,6 +44,7 @@ function(copy_header file)
 endfunction()
 
 set(C10D_SRCS
+  frontend.cpp
   FileStore.cpp
   ParamCommsUtils.cpp
   PrefixStore.cpp
